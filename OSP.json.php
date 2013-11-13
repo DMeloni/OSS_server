@@ -447,6 +447,38 @@ $OSPs = array(
 // 				'configuration' => 'Manual',
 // 				'database'=> 'MySql, Microsoft, Sql Server, PostgreSQL'
 // 			),
+			array(
+					'name' => 'Pixie',
+					'url' => 'http://pixie-cms.googlecode.com/files/pixie_v1.04.zip',
+					'version' => '1.04',
+					'categories' => array('Blog'),
+					'description' => 'Pixie is a free, open source web application that will help you quickly create your own website. Many people refer to this type of software as a "content management system (cms)", we prefer to call it a small, simple, website maker.',
+					'link' => 'http://www.getpixie.co.uk',
+					'author' => 'Lucid Crew',
+					'database'=> 'MySql'
+				),
+		array(
+				'name' => 'Nucleus',
+				'url' => 'http://downloads.sourceforge.net/project/nucleuscms/1.%20Nucleus%20Core/Nucleus%20v3.65/nucleus3.65.zip?r=http%3A%2F%2Fnucleuscms.org%2Fdownload.php&ts=1384360444&use_mirror=optimate',
+				'version' => '3.65',
+				'categories' => array('Blog'),
+				'description' => '',
+				'link' => 'http://nucleuscms.org/',
+				'author' => 'Lucid Crew',
+				'configuration' => 'You have to run install.php',
+				'database'=> 'MySql'
+		),		
+		array(
+				'name' => 'Monstra',
+				'url' => 'https://bitbucket.org/Awilum/monstra/downloads/monstra-2.2.1.zip',
+				'version' => '3.65',
+				'categories' => array('CMS'),
+				'description' => 'Monstra is a simple and light-weighted Content Management System written in PHP! It is Easy to install, upgrade and use. Just try it :)',
+				'link' => 'http://nucleuscms.org/',
+				'author' => 'Lucid Crew',
+				'database'=> 'MySql'
+		),		
+		
         );
 
 // Add available OSPs
