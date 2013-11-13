@@ -67,7 +67,7 @@ $OSPs = array(
             'name' => 'Codiad',
             'url' => 'https://github.com/Codiad/Codiad/archive/v.2.0.7.zip',
             'version' => '2.0.7',
-            'categories' => array('Developpement'),
+            'categories' => array('Development'),
             'description' => 'Codiad is a web-based IDE framework with a small footprint and minimal requirements.',
             'link' => 'http://codiad.com',
             'author' => 'Codiad',
@@ -107,7 +107,7 @@ $OSPs = array(
             'trust' => true,
             'url' => 'https://github.com/broncowdd/SnippetVamp/archive/master.zip',
             'version' => 'last',
-            'categories' => array('Developpement'),
+            'categories' => array('Development'),
             'description' => 'This is an app to easily store, manage &amp; share your snippets.',
             'link' => 'http://warriordudimanche.net',
             'author' => 'Bronco',
@@ -328,7 +328,7 @@ $OSPs = array(
             'name' => 'MantisBT', 
             'url' => 'http://downloads.sourceforge.net/project/mantisbt/mantis-stable/1.2.15/mantisbt-1.2.15.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fmantisbt%2Ffiles%2Fmantis-stable%2F1.2.15%2F&ts=1384267609&use_mirror=netcologne',
             'version' => '1.2.15',
-            'categories' => array('Developpement'),
+            'categories' => array('Development'),
             'description' => 'MantisBT is a free popular web-based bugtracking system (feature list). It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver.',
             'link' => 'http://www.mantisbt.org',
             'author' => 'MantisBT',
@@ -370,9 +370,83 @@ $OSPs = array(
             'description' => 'BlazeKiss est un wiki basé sur le principe Kiss : Keep It Simple Stupid, c’est à dire la simplicité et la fonctionnalité avant tout.',
             'link' => 'http://projet.idleman.fr/blazekiss/',
             'author' => 'Idleman',
-            ),              
-            
-            
+            ),   
+		array(
+			'name' => 'Adminer',
+			'url' => 'http://downloads.sourceforge.net/project/adminer/Adminer/Adminer%203.7.1/adminer-3.7.1.php?r=http%3A%2F%2Fwww.adminer.org%2F&ts=1384339247&use_mirror=garr',
+			'version' => '3.7.1',
+			'type' => 'php',
+			'categories' => array('Development'),
+			'description' => 'Database management in a single PHP file.',
+			'link' => 'http://www.adminer.org',
+			'author' => 'Jakub Vrána',
+			'database'=> 'MySQL'
+			),
+		array(
+				'name' => 'phpMyAdmin',
+				'url' => 'http://downloads.sourceforge.net/project/phpmyadmin/phpMyAdmin/4.0.9/phpMyAdmin-4.0.9-all-languages.zip?r=http%3A%2F%2Fwww.phpmyadmin.net%2Fhome_page%2Findex.php&ts=1384339922&use_mirror=kent',
+				'version' => '4.0.9',
+				'categories' => array('Development'),
+				'description' => 'phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL, MariaDB and Drizzle. Frequently used operations (managing databases, tables, columns, relations, indexes, users, permissions, etc) can be performed via the user interface, while you still have the ability to directly execute any SQL statement.',
+				'link' => 'http://www.adminer.org',
+				'author' => 'PHPMyAdmin',
+				'database'=> 'MySQL, MariaDB, Drizzle'
+			),
+		array(
+				'name' => 'CodevTT',
+				'url' => 'https://github.com/lbayle/codev/archive/master.zip',
+				'version' => 'last',
+				'categories' => array('Development'),
+				'description' => 'An open source issue tracking & project management application.',
+				'link' => 'http://codevtt.org/',
+				'author' => 'Louis BAYLE',
+            	'database' => 'MySQL, SQL Server, PostgreSQL, Oracle, IBM DB2',
+			),		
+		array(
+				'name' => 'Collabtive',
+				'url' => 'http://downloads.sourceforge.net/project/collabtive/collabtive/1.1/collabtive-11.zip?r=http%3A%2F%2Fwww.collabtive.o-dyn.de%2Fdownloadref.php&ts=1384351787&use_mirror=netcologne',
+				'version' => '1.1',
+				'categories' => array('Development'),
+				'description' => 'Collabtive is cloud based groupware easy and efficient for your projects.',
+				'link' => 'http://www.collabtive.o-dyn.de/',
+				'author' => 'Open Dynamics',
+				'configuration' => 'Manual',
+				'database'=> ''
+		),		
+		array(
+				'name' => 'dotProject',
+				'url' => 'http://downloads.sourceforge.net/project/dotproject/dotproject/dotProject%20Version%202.1.8/dotproject_2_1_8.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fdotproject%2F&ts=1384353588&use_mirror=heanet',
+				'version' => '2.1.8',
+				'categories' => array('Development'),
+				'description' => 'dotProject is a volunteer supported Project Management application. There is no "company" behind this project, it is managed, maintained, developed and supported by a volunteer group and by the users themselves.',
+				'link' => 'http://www.dotproject.net/',
+				'author' => 'Slackhat',
+				'configuration' => 'Manual',
+				'database'=> ''
+		),		
+// 		array(
+// 				'name' => 'indefero',
+// 				'url' => 'http://projects.ceondo.com/p/indefero/downloads/get/indefero-1.3.3.tar.bz2',
+// 				'version' => '1.3.3',
+// 				'categories' => array('Development'),
+// 				'type' => 'tar.bz2',
+// 				'description' => 'Indefero is basically a clone of GoogleCode but with git, mercurial, subversion and monotone support. See Features for a more complete list of features.',
+// 				'link' => 'http://projects.ceondo.com',
+// 				'author' => 'Ceondo',
+// 				'configuration' => 'Manual',
+// 				'database'=> ''
+// 		),		
+// 		array(
+// 				'name' => 'phpcollab',
+// 				'url' => 'http://downloads.sourceforge.net/project/phpcollab/final/2.5/phpcollab-2.5.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fphpcollab%2Ffiles%2Ffinal%2F2.5%2F&ts=1384358289&use_mirror=netcologne',
+// 				'version' => '2.5',
+// 				'categories' => array('Development'),
+// 				'description' => 'phpCollab is an open source internet-enabled system for use in projects that require collaboration over the internet.',
+// 				'link' => 'http://www.phpcollab.com',
+// 				'author' => 'PHPCOLLAB',
+// 				'configuration' => 'Manual',
+// 				'database'=> 'MySql, Microsoft, Sql Server, PostgreSQL'
+// 			),
         );
 
 // Add available OSPs
