@@ -26,7 +26,7 @@ $OSPs = array(
         	'php' => '5.1'
             ),
         array(
-            'name' => 'Kriss', 
+            'name' => 'KrISS feed', 
             'trust' => true,
             'url' => 'https://github.com/tontof/kriss_blog/archive/master.zip',
             'version' => 'last',
