@@ -10,6 +10,8 @@ $OSPs = array(
             'description' => 'You want to share the links you discover ? Shaarli is a minimalist delicious clone you can install on your own website. It is designed to be personal (single-user), fast and handy.',
             'link' => 'http://sebsauvage.net/wiki/doku.php?id=php:shaarli',
             'author' => 'Sebsauvage',
+        	'licence' => 'zlib/libpng OSI licence',
+        	'php' => '5.1'
             ),
         array(
             'name' => 'Shaarli', 
@@ -20,6 +22,8 @@ $OSPs = array(
             'description' => 'Shaarli is a minimalist delicious clone you can install on your own website. It is designed to be personal (single-user), fast and handy.',
             'link' => 'http://sebsauvage.net/wiki/doku.php?id=php:shaarli',
             'author' => 'Sebsauvage',
+        	'licence' => 'zlib/libpng OSI licence',
+        	'php' => '5.1'
             ),
         array(
             'name' => 'Kriss', 
@@ -30,6 +34,25 @@ $OSPs = array(
             'description' => 'KrISS feed is a simple and smart (or stupid) feed reader.',
             'link' => 'http://tontof.net/kriss/feed/',
             'author' => 'Tontof',
+        	'features' => array(
+        			'KISS philosophy (Keep It Simple and Smart)',
+        			'Fast (the fastest RSS reader ?)',
+        			'Easy to install (if you find an easier solution, I\'m all ears)',
+        			'Easy to personnalize (default style is ugly ? Just go and see Style)',
+        			'Easy to share with Shaarli but also others sharing tools using GET parameters of URL',
+        			'Mobile support using responsive web design',
+        			'Customize everything such as menu, paging to keep only what you need',
+        			'Auto mark as read when going to next item',
+        			'Add favicon to feeds',
+        			'Public/protected/private visibility',
+        			'Update manually/using javascript/using cron',
+        			'Keep items as starred',
+        			'List or expanded view',
+        			'Order by newer or older items',
+        			'Show unread or all items',
+        			'Keyboard shorcuts',
+        			'OPML import/export'  			
+        		)
             ),
         array(
             'name' => 'Pluxml', 
@@ -165,17 +188,50 @@ $OSPs = array(
             'author' => 'Wordpress',
             'database' => 'MySQL'
             ),
-        array(
-            'name' => 'Dotclear', 
-            'trust' => true,
-            'url' => 'http://download.dotclear.net/latest.zip',
-            'version' => 'last',
-            'categories' => array('Blog'),
-            'description' => 'Dotclear is an open-source web publishing software. The project’s purpose is to provide a user-friendly tool allowing anyone to publish on the web, regardless of their technical skills.',
-            'link' => 'http://wordpress.org',
-            'author' => 'Olivier Meunier',
-            'database' => 'MySQL, PostGreSQL'
-            ),        
+		array(
+			'name' => 'Dotclear',
+			'trust' => true,
+			'url' => 'http://download.dotclear.net/attic/dotclear-2.6-RC.zip',
+			'version' => '2.6-RC',
+			'categories' => array('Blog'),
+			'description' => 'Dotclear is an open-source web publishing software. The project’s purpose is to provide a user-friendly tool allowing anyone to publish on the web, regardless of their technical skills.',
+			'link' => 'http://wordpress.org',
+			'author' => 'Olivier Meunier',
+			'database' => 'MySQL, PostGreSQL'
+		),
+		array(
+			'name' => 'Dotclear',
+			'trust' => true,
+			'url' => 'http://download.dotclear.net/attic/dotclear-2.5.zip',
+			'version' => '2.5',
+			'categories' => array('Blog'),
+			'description' => 'Dotclear is an open-source web publishing software. The project’s purpose is to provide a user-friendly tool allowing anyone to publish on the web, regardless of their technical skills.',
+			'link' => 'http://wordpress.org',
+			'author' => 'Olivier Meunier',
+			'database' => 'MySQL, PostGreSQL'
+		),
+		array(
+			'name' => 'Dotclear',
+			'trust' => true,
+			'url' => 'http://download.dotclear.net/attic/dotclear-2.4.4.zip',
+			'version' => '2.4.4',
+			'categories' => array('Blog'),
+			'description' => 'Dotclear is an open-source web publishing software. The project’s purpose is to provide a user-friendly tool allowing anyone to publish on the web, regardless of their technical skills.',
+			'link' => 'http://wordpress.org',
+			'author' => 'Olivier Meunier',
+			'database' => 'MySQL, PostGreSQL'
+		),
+		array(
+			'name' => 'Dotclear',
+			'trust' => true,
+			'url' => 'http://download.dotclear.net/attic/dotclear-2.3.1.zip',
+			'version' => '2.3.1',
+			'categories' => array('Blog'),
+			'description' => 'Dotclear is an open-source web publishing software. The project’s purpose is to provide a user-friendly tool allowing anyone to publish on the web, regardless of their technical skills.',
+			'link' => 'http://wordpress.org',
+			'author' => 'Olivier Meunier',
+			'database' => 'MySQL, PostGreSQL'
+		),								
         array(
             'name' => 'esotalk', 
             'trust' => true,
@@ -253,7 +309,7 @@ $OSPs = array(
             'trust' => true,
             'url' => 'http://www.inf-it.com/CalDavZAP_0.9.1.2.zip',
             'version' => '0.9.1.2',
-            'categories' => array('Calendrier'),
+            'categories' => array('Miscellaneous'),
             'description' => 'CalDavZAP is an open source CalDAV web client implementation released under GNU Affero General Public License (version 3.0).',
             'link' => 'http://www.inf-it.com/open-source/clients/caldavzap/',
             'author' => 'caldavzap',
@@ -263,7 +319,7 @@ $OSPs = array(
             'trust' => true,
             'url' => 'http://kaspars.net/wp-content/uploads/2011/05/HTML5-Notepad-with-Sync-2012.zip',
             'version' => 'last',
-            'categories' => array('Note'),
+            'categories' => array('Miscellaneous'),
             'description' => 'The modern notepad for writers, bloggers and journalists. Supports offline access and instant synchronization with your own server.',
             'link' => 'http://kaspars.net/projects/html5-notepad',
             'author' => 'HTML5-Notepad',
@@ -273,7 +329,7 @@ $OSPs = array(
             'trust' => true,
             'url' => 'http://www.limesurvey.org/en/stable-release/finish/25-latest-stable-release/961-limesurvey200plus-build131107-zip',
             'version' => 'last',
-            'categories' => array('Divers'),
+            'categories' => array('Miscellaneous'),
             'description' => 'The open source survey application, refreshingly easy and free.',
             'link' => 'http://www.limesurvey.org',
             'author' => 'limesurvey',
@@ -285,7 +341,7 @@ $OSPs = array(
             'trust' => true,
             'url' => 'http://www.cacti.net/downloads/cacti-0.8.8b.zip',
             'version' => '0.8.8b',
-            'categories' => array('Divers'),
+            'categories' => array('Miscellaneous'),
             'description' => 'Cacti is a complete network graphing solution designed to harness the power of RRDTool’s data storage and graphing functionality. Cacti provides a fast poller, advanced graph templating, multiple data acquisition methods, and user management features out of the box. All of this is wrapped in an intuitive, easy to use interface that makes sense for LAN-sized installations up to complex networks with hundreds of devices.',
             'link' => 'http://www.cacti.net/',
             'author' => 'The Cacti Group',
@@ -336,7 +392,7 @@ $OSPs = array(
             ),                 
         array(
             'name' => 'Aeres', 
-            'url' => 'http://superbaillot.net/site/DOC/Divers/Aeres/Aeres.zip',
+            'url' => 'http://superbaillot.net/site/DOC/Miscellaneous/Aeres/Aeres.zip',
             'version' => 'last',
             'categories' => array('RSS'),
             'description' => 'Agrégateur RSS simple et léger sans base de données.',
@@ -347,7 +403,7 @@ $OSPs = array(
             'name' => 'phproxyimproved', 
             'url' => 'https://phproxyimproved.googlecode.com/files/PhproxyImproved.0.3.zip',
             'version' => '0.3',
-            'categories' => array('Divers'),
+            'categories' => array('Miscellaneous'),
             'description' => 'Simple to install PHP Web proxy - for free internet in schools and at work! <br/> Lancer install.php. (username/password)',
             'link' => 'https://code.google.com/p/phproxyimproved/',
             'author' => 'Jeffsche',
@@ -371,6 +427,42 @@ $OSPs = array(
             'link' => 'http://projet.idleman.fr/blazekiss/',
             'author' => 'Idleman',
             ),   
+		array(
+			'name' => 'MediaWiki',
+			'url' => 'http://download.wikimedia.org/mediawiki/1.21/mediawiki-1.21.2.tar.gz',
+			'version' => '1.21.2',
+			'type' => 'tar.gz',
+			'categories' => array('Wiki'),
+			'description' => 'MediaWiki is a free software open source wiki package written in PHP, originally for use on Wikipedia. It is now also used by several other projects of the non-profit Wikimedia Foundation and by many other wikis.',
+			'link' => 'http://www.mediawiki.org',
+			'author' => 'MediaWiki',
+			'database' => 'MySQL, PostGreSQL, Oracle',
+			'updated' => '2013-09-03'
+		),
+		array(
+			'name' => 'MediaWiki',
+			'url' => 'http://download.wikimedia.org/mediawiki/1.19/mediawiki-1.19.8.tar.gz',
+			'version' => '1.19.8',
+			'type' => 'tar.gz',
+			'categories' => array('Wiki'),
+			'description' => 'MediaWiki is a free software open source wiki package written in PHP, originally for use on Wikipedia. It is now also used by several other projects of the non-profit Wikimedia Foundation and by many other wikis.',
+			'link' => 'http://www.mediawiki.org',
+			'author' => 'MediaWiki',
+			'database' => 'MySQL, PostGreSQL, Oracle',
+			'updated' => '2013-09-03'
+		),
+		array(
+			'name' => 'MediaWiki',
+			'url' => 'http://download.wikimedia.org/mediawiki/1.20/mediawiki-1.20.7.tar.gz',
+			'version' => '1.20.7',
+			'type' => 'tar.gz',
+			'categories' => array('Wiki'),
+			'description' => 'MediaWiki is a free software open source wiki package written in PHP, originally for use on Wikipedia. It is now also used by several other projects of the non-profit Wikimedia Foundation and by many other wikis.',
+			'link' => 'http://www.mediawiki.org',
+			'author' => 'MediaWiki',
+			'database' => 'MySQL, PostGreSQL, Oracle',
+			'updated' => '2013-09-03'
+		),
 		array(
 			'name' => 'Adminer',
 			'url' => 'http://downloads.sourceforge.net/project/adminer/Adminer/Adminer%203.7.1/adminer-3.7.1.php?r=http%3A%2F%2Fwww.adminer.org%2F&ts=1384339247&use_mirror=garr',
@@ -492,6 +584,7 @@ foreach($OSPs as $OSP){
 
 foreach($OSPs as $key => $OSP){
 	if(isset($availableVersions[$OSP['name']])){
+		rsort($availableVersions[$OSP['name']]);
 		$OSPs[$key]['versions'] = $availableVersions[$OSP['name']];
 	}
 }
