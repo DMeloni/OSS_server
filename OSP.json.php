@@ -26,7 +26,7 @@ $OSPs = array(
         	'php' => '5.1'
             ),
         array(
-            'name' => 'KrISS feed', 
+            'name' => 'Kriss', 
             'trust' => true,
             'url' => 'https://github.com/tontof/kriss_blog/archive/master.zip',
             'version' => 'last',
@@ -125,6 +125,16 @@ $OSPs = array(
             'link' => 'http://warriordudimanche.net',
             'author' => 'Bronco',
             ),
+		array(
+				'name' => 'BoZoN',
+				'trust' => true,
+				'url' => 'https://github.com/broncowdd/BoZoN/archive/master.zip',
+				'version' => 'last',
+				'categories' => array('Cloud'),
+				'description' => 'Partager simplement un ou plusieurs fichiers en un minimum de manipulations.',
+				'link' => 'http://warriordudimanche.net',
+				'author' => 'Bronco',
+		),		
         array(
             'name' => 'SnippetVamp', 
             'trust' => true,
@@ -570,7 +580,22 @@ $OSPs = array(
 				'author' => 'Lucid Crew',
 				'database'=> 'MySql'
 		),		
-		
+        array(
+                'name' => 'Jotter',
+                'url' => 'https://github.com/yosko/jotter/archive/master.zip',
+                'version' => 'last',
+                'categories' => array('Notebook'),
+                'description' => 'Jotter est un petit gestionnaire de notes en ligne à héberger sur votre serveur. Il est réalisé en PHP et ne nécessite pas de base de données.',
+                'link' => 'http://www.yosko.net/article31/jotter-notebook-manager',
+                'author' => 'Yosko ',
+                'features' => array(
+                    'Editeur WYSIWYG moderne pour plus de confort, avec raccourcis claviers pour la sauvegarde et la mise en forme',
+                    'Organistion des notes sous forme d\'arborescence dans un bloc-note',
+                    'Gestion de plusieurs blocs-notes',
+                    'Gestion multi-utilisateur',
+                    'Pas de base de données : tout est stocké sous forme de fichiers plats (JSON et Markdown)',
+                )
+            ),  		
         );
 
 // Add available OSPs
